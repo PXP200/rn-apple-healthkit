@@ -167,7 +167,6 @@ RCT_EXPORT_METHOD(saveBloodPressureSamples:(NSDictionary *)input callback:(RCTRe
     [self vitals_saveBloodPressureSamples:input callback:callback];
 }
 
-
 RCT_EXPORT_METHOD(getRespiratoryRateSamples:(NSDictionary *)input callback:(RCTResponseSenderBlock)callback)
 {
     [self vitals_getRespiratoryRateSamples:input callback:callback];
